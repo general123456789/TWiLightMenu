@@ -1258,7 +1258,7 @@ void perGameSettings (std::string filename) {
 				break;
 			}
 		}
-		if ((pressed & KEY_X) && !isHomebrew[CURPOS] && showCheats) {
+		if ((pressed & KEY_Y) && !isHomebrew[CURPOS] && showCheats) {
 			if (!dsiFeatures()) {
 				snd().unloadSfxData(); // Unload SFX data in DS mode to load more of the cheat list
 			}
